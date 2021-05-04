@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+header{
+    background: url(../../img/hero_section.png);
+}
+.header{
+    padding: 30px 0;
+}
+.header nav ul{
+    justify-content: space-evenly;
+}
+.header .search-and-register{
+    display: flex;
+    justify-content: flex-end;
+}
+.header .search-and-register ul{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.header .search-and-register a.button{
+    background: #7854F7;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+}
+
+/* slider */
+.slider{
+
+}
+.slider .content{
+
+}
+.slider .img{
+
+}
+.slider .img img{
+    width: 100%;
+}
+
+/* main commerce */
+#commerce{
+    padding: 120px 0;
+}
+#commerce .heading{
+    margin-bottom: 60px;
+}
+#commerce .heading h3,
+#commerce .commerce .content h4{
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+}
+
+#commerce .heading h3{
+    font-size: 55px;
+    text-align: center;
+    color: #272D4E;  
+}
+#commerce .commerce .content{
+    padding: 0 30px;
+}
+#commerce .commerce .content h4{
+    font-size: 25px;
+    text-align: left;
+    color: #272D4E;
+}
+#commerce .commerce .content p{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #94A2B3;
+}
+#commerce .commerce .content a{
+    color: #299EF3; 
+}
+
+/* develop */
+#develop{
+    background: url(../../img/section.png) no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+#develop .develop:last-child{
+    padding-right: 65px;
+}
+#develop .develop .image{
+    position: relative;
+}
+#develop .develop .image img{
+    position: absolute;
+    top: -55px;
+}
+#develop .develop:first-child{
+    padding-left: 65px;
+}
+#develop .develop:first-child{
+    margin-bottom: 150px;
+}
+#develop .develop:first-child .image{
+    position: relative;
+}
+#develop .develop:first-child .image img{
+    position: absolute;
+    border-radius: 20px;
+    top: -125px;
+}
+
+#develop .content h4{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    color: #FFFFFF;
+    padding-right: 35px;
+}
+#develop .content p{
+    font-size: 13px;
+    line-height: 30px;
+    color: #fff;
+}
+#develop .content a{
+    background: #70C217;
+    border-radius: 60px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 21px;
+    padding: 12px 25px;
+    color: #FFFFFF;
+}
