@@ -153,9 +153,9 @@ header{
 
 /* testimonial */
 #testimonial{
+    padding: 100px 0 220px;
     background: url(../../img/testimonials-section.png) no-repeat;
     background-size: cover;
-    padding: 100px 0;
 }
 #testimonial .row:last-child{
     margin-top: 85px;
@@ -175,3 +175,25 @@ header{
 #testimonial .content p{
     color: #94A2B3;
 }
+
+/* support */
+#support .title{
+    padding: 70px 0;
+}
+#support .title h4{ 
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 70px;
+    color: #272D4E;
+}
+#support .title p{
+    color: #94A2B3;
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+}
+/* #support .content{
+    background: #5F37EF;
+    color: #fff;
+} */
