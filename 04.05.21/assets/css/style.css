@@ -150,3 +150,28 @@ header{
     padding: 12px 25px;
     color: #FFFFFF;
 }
+
+/* testimonial */
+#testimonial{
+    background: url(../../img/testimonials-section.png) no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+#testimonial .row:last-child{
+    margin-top: 85px;
+}
+#testimonial .title h3{
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 55px;
+    color: #272D4E;
+    text-align: center;
+}
+#testimonial .content{
+    background: url(../../img/”.png) no-repeat;
+    background-size: 140px;
+    background-position-x: center;
+}
+#testimonial .content p{
+    color: #94A2B3;
+}
